@@ -1,0 +1,28 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .options {
+    //  always takes up 50% of the end of the component
+    // so starts at the half way pt
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    // always place this at the end of the component
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+    }
+  }
+}
