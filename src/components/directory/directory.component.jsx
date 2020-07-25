@@ -49,7 +49,7 @@ export class Directory extends React.Component {
       // map the props in and pass any props that are needed by a component inside their tag
       <div className="directory-menu">
         {/* spreads every element of the object as props so instead 
-        of writing title={title}, imageUrl={imageUrl}, size={size} ect
+        of writing title={title}, imageUrl={imageUrl}, size={size} etc
         we just use the spreader ...function to pass them all at one time  */}
         {this.state.sections.map(({ id, ...otherSectionProps }) => (
           <MenuItem key={id} {...otherSectionProps} />
